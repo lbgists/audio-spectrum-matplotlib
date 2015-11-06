@@ -15,6 +15,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 TITLE = ''
+WIDTH = 1280
+HEIGHT = 720
 FPS = 25.0
 
 nFFT = 512
@@ -58,6 +60,10 @@ def init(line):
 
 
 def main():
+
+  dpi = plt.rcParams['figure.dpi']
+  plt.rcParams['savefig.dpi'] = dpi
+  plt.rcParams["figure.figsize"] = (1.0 * WIDTH / dpi, 1.0 * HEIGHT / dpi)
 
   fig = plt.figure()
 
