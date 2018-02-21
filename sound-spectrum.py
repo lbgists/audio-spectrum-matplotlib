@@ -3,7 +3,7 @@
 # Public Domain
 #
 # Deps: PyAudio, NumPy, and Matplotlib
-# Blog: http://blog.yjl.im/2012/11/frequency-spectrum-of-sound-using.html
+# Blog: https://yjlv.blogspot.com2012/11/frequency-spectrum-of-sound-using.html
 
 import struct
 import wave
